@@ -108,7 +108,7 @@ function animate() {
     skelet.rotation.x +=  0.0040;
     skelet.rotation.y +=  0.0040;
 
-    renderer.render(scene, camera)
+    renderer.render(scene, camera);
 }
 
 function onWindowResize() {
