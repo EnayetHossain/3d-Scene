@@ -105,8 +105,8 @@ function animate() {
     circle.rotation.x -= 0.0030;
     circle.rotation.y -= 0.0030;
 
-    skelet.rotation.x -=  0.0040;
-    skelet.rotation.y -=  0.0040;
+    skelet.rotation.x +=  0.0040;
+    skelet.rotation.y +=  0.0040;
 
     renderer.render(scene, camera)
 }
