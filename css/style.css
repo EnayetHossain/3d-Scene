@@ -7,6 +7,8 @@
 html{
     width: 100%;
     height: auto;
+    background: -moz-linear-gradient(top, #fc00ff, #00dbde);
+    background: -webkit-linear-gradient(top, #fc00ff, #00dbde);
     background: linear-gradient(to top, #fc00ff, #00dbde);
     overflow: hidden;
 }
