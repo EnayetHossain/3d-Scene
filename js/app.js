@@ -102,7 +102,7 @@ function animate() {
     particle.rotation.y -= 0.0040;
     particle.rotation.z -= 0.0020;
 
-    circle.rotation.x = 0.0030;
+    circle.rotation.x -= 0.0030;
     circle.rotation.y -= 0.0030;
 
     skelet.rotation.x -=  0.0040;
