@@ -69,10 +69,10 @@ function init(){
     innerPlanet.scale.x = innerPlanet.scale.y = innerPlanet.scale.z = 16;
     circle.add(innerPlanet);
 
-    // outter planet
-    let outterPlanet = new THREE.Mesh(geomet2, mat);
-    outterPlanet.scale.x = outterPlanet.scale.y = outterPlanet.scale.z = 10;
-    skelet.add(outterPlanet);
+    // outer planet
+    let outerPlanet = new THREE.Mesh(geomet2, mat);
+    outerPlanet.scale.x = outerPlanet.scale.y = outerPlanet.scale.z = 10;
+    skelet.add(outerPlanet);
 
     // ambient light
     let ambientLight = new THREE.AmbientLight(0x999999);
