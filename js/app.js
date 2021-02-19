@@ -40,7 +40,7 @@ function init(){
 
     // adding geometry
     let geometry = new THREE.TetrahedronGeometry(2, 1);
-    let geomet = new THREE.IcosahedronGeometry(7, 1)
+    let geomet = new THREE.IcosahedronGeometry(7, 1);
     let geomet2 = new THREE.IcosahedronGeometry(15, 4);
 
     // adding material
